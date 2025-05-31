@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Energy Intake Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Daily Energy Intake Calculator</h1>
+        <div class="input-section">
+            <input type="text" id="food-item" placeholder="Food Item" required>
+            <input type="number" id="weight" placeholder="Weight (g)" required>
+            <button id="add-item">Add Item</button>
+        </div>
+        <div class="error-message" id="error-message"></div>
+        <div class="total-energy">
+            <h2>Total Energy Intake: <span id="total-energy">0</span> kcal</h2>
+        </div>
+        <ul id="food-list"></ul>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
